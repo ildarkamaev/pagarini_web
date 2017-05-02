@@ -1,0 +1,96 @@
+@media screen and (max-width: 800px){
+    @font-face{
+    font-family: CoreSansRegular;
+    src: url(fonts/S-CoreSansA45Regular.otf);
+    }
+
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        font-family: CoreSansRegular, Helvetica, Arial, sans-serif;
+    }
+
+    #MainHead{
+        background-color: white;
+    }
+
+    #Head img{
+        display: inline-block;
+        float: left;
+        width: 50%;
+        height: 50%;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+    .hamburger img{
+        display: inline-block;
+        float: right;
+        margin-top: 1.25em;
+        margin-right: 1.3em;
+    }
+
+    #MainNav ul{
+        list-style: none;
+        margin: 0px;
+
+    }
+
+    #MainNav ul li{
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    #MainNav ul li a{
+        font-size: 1.5em;
+        color: rgb(145, 47, 70);
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #MainNav ul li a:hover{
+        background-color: rgb(145, 47, 70);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    @font-face{
+    font-family: CoreSansRegular;
+    src: url(fonts/S-CoreSansA45Regular.otf);
+    }
+
+    #jumbotron{
+        width: 100%;
+    }
+
+    #jumbotron img{
+        width: 100%;
+        height: auto;
+    }
+
+    #about{
+        background-image: url(materials/pagarini_taust.png);
+        repeat: no-repeat;
+    }
+
+    #about h2{
+        font-size: 3em;
+        text-align: center;
+        color: rgb(145, 47, 70);
+    }
+
+    #about p{
+        font-size: 1.5em;
+        text-align: center;
+        color: rgb(145, 47, 70);
+    }
+}
