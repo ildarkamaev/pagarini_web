@@ -153,12 +153,11 @@ body{
 /*-----Gallery------*/
 
 #gallery{
-    margin-bottom: 0px;
 
 }
 
 #gallery img{
-    width: 33%;
+    width: 33.3%;
     height: auto;
     margin-bottom: 0px;
     margin: 0px;
