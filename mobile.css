@@ -1,7 +1,12 @@
 @media screen and (max-width: 800px){
     @font-face{
     font-family: CoreSansRegular;
-    src: url(fonts/S-CoreSansA45Regular.otf);
+    src: url(fonts/S-Core - CoreSansA45Regular.otf);
+    }
+
+    @font-face{
+    font-family: CoreSansBold;
+    src: url(fonts/S-Core - CoreSansA65Bold.otf);
     }
 
     body{
@@ -16,8 +21,7 @@
     }
 
     #Head img{
-        display: inline-block;
-        float: left;
+        display: block;
         width: 50%;
         height: 50%;
         margin-top: 1em;
@@ -68,6 +72,8 @@
     src: url(fonts/S-CoreSansA45Regular.otf);
     }
 
+
+
     #jumbotron{
         width: 100%;
     }
@@ -83,6 +89,7 @@
     }
 
     #about h2{
+        font-family: CoreSansBold;
         font-size: 3em;
         text-align: center;
         color: rgb(145, 47, 70);
@@ -93,4 +100,23 @@
         text-align: center;
         color: rgb(145, 47, 70);
     }
+
+    #gallery img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    #locations{
+        background-color: rgb(145, 47, 70);
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    #locations h2, h3, p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    #locations h2
 }

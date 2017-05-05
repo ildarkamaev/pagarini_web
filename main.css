@@ -1,3 +1,251 @@
+@font-face {
+font-family: CoreSansRegular;
+src: url(fonts/CoreSansA45Regular.otf);
+}
+
+@font-face {
+font-family: CoreSansBold;
+src: url(fonts/CoreSansA65Bold.otf);
+}
+
 body{
-    background-color: white;
+    font-family: CoreSansRegular, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*------Header-------*/
+
+#MainHead{
+    background: rgb(255, 255, 255);
+    /*border-bottom: 3px solid rgb(145, 47, 70);*/
+    padding-bottom: 5em;
+    /*padding-top: 1em;
+    padding-bottom: 1em;*/
+}
+
+#Head img{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    float: left;
+
+}
+
+/*----MainNav------*/
+
+#MainNav{
+    margin-top: 0.5em;
+    margin-right: 5em;
+    float: right;
+
+}
+
+#MainNav ul{
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 1.5em;
+}
+
+#MainNav ul li{
+    display: inline-block;
+}
+
+#MainNav ul li a{
+    color: rgb(145, 47, 70);
+    font-size: 1.3em;
+    padding-left: 0.5em;
+    padding-right: 0.7em;
+    padding-bottom: 0.95em;
+    text-decoration: none;
+
+}
+
+#MainNav ul li a:hover{
+    border-bottom: 3px solid rgb(145, 47, 70);
+}
+
+/*_____jumbotron______*/
+
+#jumbotron{
+    margin-top: 0.2em;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 8em;
+    /*width: 100%;*/
+}
+
+#jumbotron img{
+    width: 50%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+/*----About----*/
+
+#about{
+    background: url(materials/pagarini_taust.png) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 8em;
+}
+
+#about h2{
+    padding-top: 6em;
+    font-family: CoreSansBold;
+    font-size: 3em;
+    color: rgb(145, 47, 70);
+    text-align: center;
+
+}
+
+#about p{
+    text-align: center;
+    color: rgb(145, 47, 70);
+    font-size: 1.5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+/*-----Gallery------*/
+
+#gallery{
+    margin-bottom: 0px;
+
+}
+
+#gallery img{
+    width: 33%;
+    height: auto;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+
+
+#locations{
+ background-color: rgb(145, 47, 70);
+ padding-top: 4em;
+ padding-bottom: 25em;
+ margin-top: 0px;
+}
+
+#locations h2{
+    font-family: CoreSansBold;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#loc{
+    width: 20em;
+    margin-left: 4em;
+    margin-right: 4em;
+    float: left;
+}
+
+#loc h3{
+    font-family: CoreSansBold;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#loc p{
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+#contact{
+    background: url(materials/pagarini_taust.png) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 40em;
+}
+
+#ContactText{
+    display: block;
+    float: left;
+    padding-top: 4em;
+    padding-left: 6em;
+    width: 35em;
+}
+
+#contact h2{
+    font-family: CoreSansBold;
+    font-size: 3em;
+    color: rgb(145, 47, 70);
+}
+
+#contact p{
+    color: rgb(145, 47, 70);
+    font-size: 1.5em;
+}
+
+#ContactUs{
+    display: block;
+    float: right;
+    padding-right: 6em;
+    padding-top: 8em;
+}
+
+label{
+    color: rgb(145, 47, 70);
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+
+form{
+    width: 30em;
+}
+
+
+input[type=text]{
+    border: 1px solid rgb(145, 47, 70);
+    border-radius: 0.3em;
+    border-sizing: border-box;
+    width: 20em;
+    height: 2em;
+    float: right;
+    margin-right: 3em;
+}
+
+input[type=text]:focus{
+    border: 3px solid rgb(145, 47, 70);
+}
+
+input[type=textarea]{
+    border: 1px solid rgb(145, 47, 70);
+    border-radius: 0.3em;
+    width: 40em;
+    height: 20em;
+    float: left;
+    margin-right: 3em;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+input[type=submit]{
+    border: 2px solid rgb(145, 47, 70);
+    background-color: transparent;
+    color: rgb(145, 47, 70);
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: 2em;
+    margin-left: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(145, 47, 70);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(145, 47, 70);
+    color: rgb(255, 255, 255);
 }
