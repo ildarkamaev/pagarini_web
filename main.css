@@ -83,6 +83,7 @@ body{
     display: block;
     float: left;
     padding-bottom: 8em;
+    margin-bottom: 8px;
 
 }
 
@@ -124,7 +125,7 @@ body{
 }
 
 .jumbo_img:hover .overlay{
-    opacity: .99;
+    opacity: 0.98;
 }
 
 
