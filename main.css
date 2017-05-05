@@ -71,7 +71,7 @@ body{
     margin-top: 0.2em;
     float: left;
     margin-top: 0px;
-    margin-bottom: 8em;
+    margin-bottom: 6em;
     /*width: 100%;*/
 }
 
@@ -84,6 +84,31 @@ body{
 
 }
 
+.overlayText p{
+    text-align: center;
+    font-size: 1.5em;
+    width: 20em;
+    margin-left: 4.5em;
+    margin-top: 11em;
+    color: rgb(255, 255, 255);
+
+}
+
+.overlay{
+    position: absolute;
+    height: 89.3%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(145, 47, 70);
+}
+
+#jumbotron:hover .overlay{
+    opacity: 0.9;
+}
+
+
+
 /*----About----*/
 
 #about{
@@ -93,7 +118,7 @@ body{
 }
 
 #about h2{
-    padding-top: 6em;
+    padding-top: 0em;
     font-family: CoreSansBold;
     font-size: 3em;
     color: rgb(145, 47, 70);
